@@ -1,4 +1,2 @@
-docs
+Eventport Documentation
 ====
-
-Documentation
