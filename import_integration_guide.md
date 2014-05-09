@@ -2,7 +2,8 @@
 
 ## Suggested Workflow for the integration
 
-Demo: http://www.eventport.net/event_json_import/
+__Demo:__ http://www.eventport.net/event_json_import/
+__Example event__: example_event.json
 
 1. The user clicks on the export button on our page. This will copy one event to the clipboard.
 2. The user opens the "create event" form in the Muffatwerk CMS.
@@ -12,4 +13,4 @@ Demo: http://www.eventport.net/event_json_import/
 6. The user can edit the inserted data or add missing info if needed.
 7. The user saves the event.
 
-The export fomat is documented in format.md.
+The export format is documented in format.md.

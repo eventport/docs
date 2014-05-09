@@ -1,0 +1,139 @@
+{
+  "_id": "awqH5gR7GGRnFrhsG",
+  "name": "My Example Event Title",
+  "subtitle": "My Example Event Subtitle",
+  "remark": "",
+  "inlet": "2014-05-09T17:00:00.000Z",
+  "begin": "2014-05-09T18:00:00.000Z",
+  "end": "2014-05-10T01:00:00.000Z",
+  "openEnd": false,
+  "description": "This is the description of the event.\nIt can have multiple lines.",
+  "genres": [
+    "House",
+    "Hip Hop"
+  ],
+  "types": [
+    "Party"
+  ],
+  "location": {
+    "_id": "QMTrDb8wGMZPD23sA",
+    "name": "Jonas's Club",
+    "street": "Luisenstr. 45",
+    "addressAddition": "bei Böhme",
+    "postalcode": "80333",
+    "city": "München",
+    "homepage": "http://google.de",
+    "facebookPageId": "785890424771022"
+  },
+  "floors": [
+    "Dancefloor",
+    "Bar"
+  ],
+  "lineup": [
+    {
+      "artists": [
+        {
+          "_id": "AWo69gpbAaBMPuYzy",
+          "name": "DJ Tom"
+        }
+      ],
+      "floor": {
+        "id": "Dancefloor",
+        "text": "Dancefloor"
+      },
+      "from": {
+        "date": "2014-05-09T20:00:00.000Z",
+        "time": "2014-05-09T20:00:00.000Z"
+      },
+      "to": {
+        "date": "2014-05-10T00:00:00.000Z",
+        "time": "2014-05-10T00:00:00.000Z"
+      },
+      "genres": [
+        "House"
+      ]
+    },
+    {
+      "artists": [
+        {
+          "_id": "2yMJgh4QN8KHtd4Ku",
+          "name": "DJ Mike"
+        }
+      ],
+      "floor": {
+        "id": "Bar",
+        "text": "Bar"
+      },
+      "genres": [
+        "Hip Hop"
+      ],
+      "from": {
+        "date": "2014-05-08T22:00:00.000Z",
+        "time": "2014-05-09T20:00:32.319Z"
+      },
+      "to": {
+        "date": "2014-05-09T22:00:00.000Z",
+        "time": "2014-05-09T00:00:32.324Z"
+      }
+    }
+  ],
+  "preSalePrice": 12.99,
+  "boxOfficePrice": 14.99,
+  "specialPrice": 0,
+  "specialPriceConditions": "One free drink when you come before 12pm.",
+  "photos": [
+    {
+      "_id": "sEpngou87wTQnbCNT",
+      "url": "https://s3-eu-west-1.amazonaws.com/eventport-photos/full/eventPhotos/sEpngou87wTQnbCNT-DeathtoStock_Wired3.jpg",
+      "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/eventport-photos/thumbnail/eventPhotos/sEpngou87wTQnbCNT-DeathtoStock_Wired3.jpg",
+      "purposes": [
+        "0",
+        "2"
+      ],
+      "title": "DeathtoStock_Wired3.jpg"
+    },
+    {
+      "_id": "k3f99WXnhtssaDcyN",
+      "url": "https://s3-eu-west-1.amazonaws.com/eventport-photos/full/eventPhotos/k3f99WXnhtssaDcyN-DeathtoStock_Wired2.jpg",
+      "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/eventport-photos/thumbnail/eventPhotos/k3f99WXnhtssaDcyN-DeathtoStock_Wired2.jpg",
+      "purposes": [
+        "0",
+        "1"
+      ],
+      "title": "DeathtoStock_Wired2.jpg"
+    }
+  ],
+  "documents": [
+    {
+      "_id": "QhGRWDD7HANwN7gRi",
+      "url": "https://s3-eu-west-1.amazonaws.com/eventport-photos/full/eventDocuments/QhGRWDD7HANwN7gRi-Blatt%2001.pdf",
+      "purposes": [
+        "0"
+      ],
+      "title": "Blatt 01.pdf"
+    }
+  ],
+  "tickets": [
+    "http://eventim.com"
+  ],
+  "media": [],
+  "multiDay": false,
+  "channels": {
+    "facebook": {
+      "description": "This is the description of the event.\nIt can have multiple lines.",
+      "noFeedStory": false,
+      "useGeneralDescription": true
+    },
+    "homepage": {
+      "description": "This is the description of the event.\nIt can have multiple lines.",
+      "useGeneralDescription": true
+    },
+    "publisherNewsletter": {
+      "description": "This is the description of the event.\nIt can have multiple lines.",
+      "useGeneralDescription": true
+    },
+    "userNewsletter": {
+      "useGeneralDescription": true
+    }
+  }
+}

@@ -1,5 +1,7 @@
 ## Event Format
 
+See example_event.json for an example.
+
 #### _id (String)
 
 Our event id.
