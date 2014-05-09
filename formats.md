@@ -261,7 +261,7 @@ The id of the artist.
 The name of the artist.
 
 
-### Photo and Document Purposes
+## Photo and Document Purposes
 
 We have some special purposes that currently use numbers instead of names. The user can also use own purposes that will be saved as text.
 
