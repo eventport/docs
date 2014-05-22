@@ -127,6 +127,14 @@ Links to Soundcloud, YouTube, Vimeo etc.
 
 Facebook specific event info.
 
+###### channels.facebook.id (String)
+
+The id of the Facebook event.
+
+###### channels.facebook.url (String)
+
+The url of the Facebook event.
+
 ###### channels.facebook.description (String)
 
 The description of the event that is used for Facebook.
