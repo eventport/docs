@@ -1,6 +1,6 @@
 ## DNS Einträge für E-Mail
 
-Die folgenden DNS Einträge sorgen dafür, dass E-Mails, die wir mit ihrer E-Mail-Adresse schicken, nicht im Spam-Ordner landen.
+Die folgenden DNS TXT-Einträge sorgen dafür, dass E-Mails, die wir mit ihrer E-Mail-Adresse schicken, nicht im Spam-Ordner landen.
 
 Bitte wenden sie sich an ihren Webmaster oder ans uns, falls sie Hilfe brauchen.
 
