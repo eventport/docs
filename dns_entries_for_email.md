@@ -13,5 +13,5 @@ v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSR
 ### SPF
 
 ```
-v=spf1 include:amazonses.com include:spf.mandrillapp.com ?all
+v=spf1 include:spf.mandrillapp.com ?all
 ```
