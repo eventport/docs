@@ -6,7 +6,7 @@ __Demo:__ http://www.eventport.net/event_json_import/
 __Example event__: example_event.json
 
 1. The user clicks on the export button on our page. This will copy one event to the clipboard.
-2. The user opens the "create event" form in the Muffatwerk CMS.
+2. The user opens the "create event" form in your CMS.
 3. On the top of the form is a "Import" textarea field with an import button.
 4. The user paste the event in the "Import" textarea and clicks the import button.
 5. The form is automatically filled out with the data provided by our JSON (a mapping is needed).
