@@ -1,4 +1,4 @@
-#Wordpress plugin#
+#Wordpress Plugin#
 ##Einrichtung##
 ###Ordnerstruktur###
 Das Plugin hat folgende Ordnerstruktur:
@@ -23,9 +23,9 @@ Das Plugin hat folgende Ordnerstruktur:
 3. Nun muss man die URL von der Datei `php/eventport.php` auf Eventport in `Einstellungen -> Homepage -> WebHook URL` speichern. Im Normalfall lautet sie `http://domain.tld/wp-content/plugins/eventport/php/eventport.php`
 
 ###Aktivierung###
-Wenn das Plugin richtig konfiguriert wurde, muss man des noch im Adminpanel von Wordpress aktivieren. Der Aktivierungsskript erstellt in der Datenbank eine Tabelle, in der alle Events, die auf der Homepage veröffentlicht werden sollen, gespeichert werden.
+Wenn das Plugin richtig konfiguriert wurde, muss es noch im Adminpanel von Wordpress aktiviert werden. Das Aktivierungsskript erstellt in der Datenbank eine Tabelle, in der alle übertragenen Events gespeichert werden.
 
 ###Personalisierung###
-Die Datei `php/eventport.php` empfängt Veranstaltungen im JSON-Format, speichert sie in der vom Plugin erstellten Tabelle und ermöglicht personalisierte Weiterverarbeitung der Daten. Der Standardcode erstellt für jede Veranstalltung einen Wordpress-Post, kategorisiert ihn, lädt von Eventport ein Bild, das mit `HOMEPAGE TITELBILD` markiert wurde, herunter und speichert es als Thumbnail/bevorzugtes Foto. **Diese Datei soll an eigene Bedürfnisse angepasst werden.**
+Die Datei `php/eventport.php` empfängt Veranstaltungen im JSON-Format, speichert sie in der vom Plugin erstellten Datenbank Tabelle und ermöglicht personalisierte Weiterverarbeitung der Daten. Der Standardcode erstellt für jede Veranstalltung einen Wordpress-Post, kategorisiert ihn, lädt von Eventport ein Bild, das mit dem Verwendungszweck `Homepage Hauptfoto` markiert wurde, herunter und speichert es als Thumbnail/bevorzugtes Foto. **Diese Datei soll an eigene Bedürfnisse angepasst werden.**
 
 
