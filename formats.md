@@ -284,7 +284,8 @@ eventPhotoPurposes = {
   'FACEBOOK': '2',              // The photo is used as Facebook cover photo
   'FLYER_FRONT': '3',           // The front side of the event flyer
   'FLYER_BACK': '4',            // The back side of the event flyer
-  'PUBLISHER_NEWSLETTER': '5'   // The photo is used in the publisher newsletter
+  'PUBLISHER_NEWSLETTER': '5',  // The photo is used in the publisher newsletter
+  'HOMEPAGE_MAIN_PHOTO': '6'    // The main photo for the homepage. Only one photo has this purpose.
 };
 ```
 
