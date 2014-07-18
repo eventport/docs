@@ -14,6 +14,10 @@ The title of the event.
 
 The subtitle of the event.
 
+#### organizer (String)
+
+The organizer of the event.
+
 #### remark (String)
 
 Notes for publishers regarding the event. For example background information regarding changes, sale starts etc.
@@ -148,6 +152,16 @@ When false, `channels.facebook.description` can have another value than `descrip
 
 True, if no feed story should be posted for the event on the page.
 
+###### channels.facebook.postTimeType (Number) (internal)
+
+- 0: Manually posted
+- 1: Automatically posted at fixed time
+- 2: Automatically posted at time that is relative to the event begin
+
+###### channels.facebook.postTime (Date) (internal)
+
+The date and time when the event should be posted automatically when postTimeType is not 0.
+
 ##### channels.homepage (Object)
 
 User homepage specific event info.
@@ -160,6 +174,12 @@ The description of the event that should be used for the homepage of the user.
 
 True if the general event description is used for the homepage.
 When false, `channels.homepage.description` can have another value than `description`.
+
+###### channels.homepage.customFields (Object)
+
+The map of custom field names and their values.
+Custom fields can be added in the settings.
+They will appear as additional fields in the event form.
 
 ##### channels.publisherNewsletter (Object) (internal)
 
