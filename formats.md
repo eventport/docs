@@ -148,10 +148,6 @@ The description of the event that is used for Facebook.
 True if the general event description is used for Facebook.
 When false, `channels.facebook.description` can have another value than `description`.
 
-###### channels.facebook.noFeedStory (Boolean) (internal)
-
-True, if no feed story should be posted for the event on the page.
-
 ###### channels.facebook.postTimeType (Number) (internal)
 
 - 0: Manually posted

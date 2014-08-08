@@ -122,7 +122,6 @@
     "facebook": {
       "id": "123456789",
       "description": "This is the description of the event.\nIt can have multiple lines.",
-      "noFeedStory": false,
       "useGeneralDescription": true,
       "url": "https://www.facebook.com/events/123456789/"
     },
