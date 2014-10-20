@@ -117,7 +117,7 @@ Photos can have the format JPEG, PNG or GIF.
 
 #### documents (Array of Document Objects)
 
-#### tickets (Array of Strings)
+#### tickets (Array of Ticket Objects)
 
 URLs to ticket services where you can buy tickets for the event.
 
