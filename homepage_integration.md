@@ -19,12 +19,13 @@ In Eventport-Einstellungen können Sie einen Token generieren, der bei Jedem Dat
 Beispiel: http://domain.tld/eventport.php?accessToken={{token}}
 ####Veranstaltungsverwaltung
 #####Veranstaltung veröffentlichen
-Methode: POST
+Methode: `POST`
 
 Felder: Event object (s. formats.md)
 
 #####Veranstaltung aktualisieren
-Methode: POST
+Methode: `POST`
+
 Felder: Event object (s. formats.md)
 
 #####Veranstaltung löschen/absagen
