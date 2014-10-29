@@ -26,6 +26,6 @@ Das Plugin hat folgende Ordnerstruktur:
 Wenn das Plugin richtig konfiguriert wurde, muss es noch im Adminpanel von Wordpress aktiviert werden. Das Aktivierungsskript erstellt in der Datenbank eine Tabelle, in der alle übertragenen Events gespeichert werden.
 
 ###Personalisierung###
-Die Datei `php/eventport.php` empfängt Veranstaltungen im JSON-Format, speichert sie in der vom Plugin erstellten Datenbank Tabelle und ermöglicht personalisierte Weiterverarbeitung der Daten. Der Standardcode erstellt für jede Veranstalltung einen Wordpress-Post, kategorisiert ihn, lädt von Eventport ein Bild, das mit dem Verwendungszweck `Homepage Hauptfoto` markiert wurde, herunter und speichert es als Thumbnail/bevorzugtes Foto. **Diese Datei soll an eigene Bedürfnisse angepasst werden.**
+Die Datei `php/eventport.php` empfängt Veranstaltungen im JSON-Format, speichert sie in der vom Plugin erstellten Datenbank Tabelle und ermöglicht personalisierte Weiterverarbeitung der Daten. Der Standardcode erstellt für jede Veranstalltung einen Wordpress-Post, kategorisiert ihn, lädt von Eventport ein Bild, das mit dem Verwendungszweck `Homepage Hauptfoto` markiert wurde, herunter und speichert es als Thumbnail/bevorzugtes Foto.
 
 
