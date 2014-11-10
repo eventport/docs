@@ -22,11 +22,6 @@ The organizer of the event.
 
 Notes for publishers regarding the event. For example background information regarding changes, sale starts etc.
 
-#### multiDay (boolean)
-
-When this flag is set to true, the event will last more than one day (see begin and end).
-When the flag  is set to false, the event is shorter than 24 hours.
-
 #### begin (Date and Time)
 
 Begin date and time in ISO-8601 format and UTC timezone.
