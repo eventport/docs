@@ -1,4 +1,4 @@
-#Homepage-Integration
+#CMS-Integration
 Veranstaltungsdaten werden per Webhook zu Veranstalterwebseiten/CMS übertragen.
 ##Integrationsmöglichkeiten
 ###Wordpress-Plugin
